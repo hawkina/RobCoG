@@ -7,13 +7,20 @@
 		{
 			"Name": "RobCoG",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
 		{
 			"Name": "UElectricalDevices",
 			"Enabled": false
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
 		}
 	]
 }
